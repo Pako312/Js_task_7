@@ -55,16 +55,23 @@
 
 // - В переменной date лежит дата в формате '2025-12-31'. Преобразуйте эту дату в формат '31.12.2025'.
 
-let data = '2025-12-31';
-    let data2 = data.split('-');
-    console.log(data2[2]+'.'+data2[1]+'.'+data2[0]);
+// let data = '2025-12-31';
+//     let data2 = data.split('-');
+//     console.log(data2[2]+'.'+data2[1]+'.'+data2[0]);
 
 //     5) На filter:
 // - Дан массив с числами. Оставьте в нем только отрицательные числа.
 //  В отдельную переменную положите количество отрицательных чисел в этом массиве.
 
-
-
-
+// const nums = [1, -2, 3, 4, -5, 6, 7, 8, 9, -10]
+// const neg = nums.filter(function (n) {
+//   return n < 0
+// })
+// console.log(neg)
 
 // - Дан массив со строками. Оставьте в нем только те строки, длина которых больше 5-ти символов.
+// let str = ['apple', 'watermelone', 'banana', 'orange','potato','cherry', 'peach']
+// const arr = str.filter(function(n) {
+//     return n.length > 5; 
+// })
+// console.log(arr);
