@@ -13,12 +13,13 @@
 // 	sum += elem;
 // });
 
-// let arr = [1, 2, 3, 4, 5];
+let arr = [1, 2, 3, 4, 5];
 
-// let sum = arr.forEach(function(elem){
-// 	return elem**2;
-// });
-// console.log(sum);
+let sum = arr.forEach( (elem) => {
+	const res= elem*elem ;
+    console.log(res);
+});
+
 
 
 
